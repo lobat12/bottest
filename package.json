@@ -1,16 +1,12 @@
 {
-  "name": "bot-telegram-example",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Suissa",
-  "license": "WTFPL",
   "dependencies": {
-    "axios": "^0.16.1",
-    "cheerio": "^0.22.0",
-    "node-telegram-bot-api": "^0.27.0"
+    "grammy": "^1.12.0",
+    "node-fetch": "^2.6.1"
   }
 }
